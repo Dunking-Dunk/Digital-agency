@@ -1,0 +1,25 @@
+.loading__container {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  top: 0;
+ left: 0;
+ transform: scale(0);
+  margin: 0;
+  pointer-events: none;
+  cursor: none;
+  background-color: $color-white;
+  align-items: center;
+  justify-content: center;
+  }
+
+  // .loading__sub {
+  //   pointer-events: none;
+  //   height: 0%;
+  //   width: 0%;
+  //   border-radius: 50%;
+  //   background-color: $color-black;
+  // }

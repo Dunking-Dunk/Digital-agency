@@ -1,0 +1,38 @@
+.navigation {
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    z-index: z('navigation');
+
+    .navigation__container {
+        padding: 0rem 5rem ;
+        @extend %cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navigation__logo  {
+        svg {
+            width: 10rem;
+            height: 3rem;
+        }
+    }
+
+    .navigation__list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation__list__item {
+        padding: 0rem 1.5rem;
+    }
+
+    .navigation__list__link  {
+        @extend %link--hidden;
+        @extend %description-14-400;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+}

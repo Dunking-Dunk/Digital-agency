@@ -1,0 +1,27 @@
+extends ../base.pug
+
+block variables 
+    -var template = 'home'
+
+block body
+    .home
+      .home__container
+        section.home__hero 
+          .home__hero__container 
+            h1.home__hero__text CRAFTING A DIGITAL JOURNEY <br> THAT ELOQUENTLY TELLS A <br> <span>DISTINCTIVE</span> NARRATIVE
+        section.home__intro 
+          .home__intro__container
+            h1.home__intro__title <span>UNFAZED</span>STUDIO
+        .home__anim__1 
+
+        section.home__about
+          .home__about__container 
+            .home__about__logo
+                include ../../shared\UnFazed-logo.svg
+            p.home__about__text <span>Unfazed</span>, a creative studio based in India, specializes in crafting exceptional brand identities and immersive digital experiences, making them a comprehensive design agency curating extraordinary online encounters.
+        section.home__abstract
+          .home__abstract__container
+            h1.home__abstact__title IMAGINATION MEETS REALITY CREATIVITY COMES ALIVE
+        section.home__work
+          .home__work__container
+            
